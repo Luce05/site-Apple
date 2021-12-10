@@ -13,6 +13,7 @@ nav{
     background-color: #333333;
     color: #FFFFFF;
     position: fixed;
+    z-index: 1;
 }
 
 .nav-list{
@@ -34,5 +35,41 @@ nav ul li a, nav a{
 
 .apple{
     font-size: 15px;
+}
+
+.sub-nav{
+    height: 45px;
+    width: 100%;
+    background-color: #E34140;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: bold;
+    position: absolute;
+    top: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.comprar{
+    text-decoration: none;
+    color: white;
+    margin-left: 6px;
+}
+
+.pain-1{
+    height: 616px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #EEEFFE;
+}
+
+.img-verm{
+    margin-top: 115px;
+    height: 89px;
+    width: 70px;
+    background-image: url(../img/logo__dcojfwkzna2q_large.png);
 }
 
