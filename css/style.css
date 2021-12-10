@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
 *{
     margin: 0;
@@ -10,9 +11,12 @@
 nav{
     height: 44px;
     width: 100%;
-    background-color: #333333;
-    color: #FFFFFF;
+    font-weight: normal;
+    background-color: #333333fa;
     position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     z-index: 1;
 }
 
@@ -21,15 +25,19 @@ nav{
     list-style: none;
     padding-top: 12px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     position: absolute;
-    right: 200px;
-    left: 200px;
+    right: 250px;
+    left: 250px;
+}
+
+nav ul li a, nav a:hover{
+    color: white;
 }
 
 nav ul li a, nav a{
-    color: #FFFFFF;
+    color: #c7c7c7;
     text-decoration: none;
 }
 
@@ -43,7 +51,7 @@ nav ul li a, nav a{
     background-color: #E34140;
     color: #FFFFFF;
     font-size: 13px;
-    font-weight: bold;
+    font-weight: normal;
     position: absolute;
     top: 44px;
     display: flex;
@@ -58,18 +66,75 @@ nav ul li a, nav a{
 }
 
 .pain-1{
-    height: 616px;
+    height: 700px;
     width: 100%;
+    margin-top: 89px;
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    background-color: #EEEFFE;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    background-color: #EAF2FC;
+}
+
+.txt-pain-1{
+    font-size: 45px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.a-pain-1{
+    text-decoration: none;
+    color: #007edf;
+    font-size: 20px;
+    margin-top: 10px;
 }
 
 .img-verm{
-    margin-top: 115px;
+    margin-top: 45px;
+    margin-bottom: 20px;
     height: 89px;
     width: 70px;
-    background-image: url(../img/logo__dcojfwkzna2q_large.png);
 }
 
+.imagens-p-1{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-p-1{
+    padding: 17px;
+}
+
+.pain-2{
+    height: 772px;
+    width: 100%;
+    margin-top: 10px;
+    background-position: center;
+    background-size: 3800px;
+    background-image: url(../img/hero_iphone_13pro.jpg);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.txt-pain-2{
+    font-size: 45px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.txt2-pain-2{
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+
+.a-pain-2{
+    text-decoration: none;
+    color: #007edf;
+    font-size: 20px;
+    padding: 15px;
+    margin-top: 10px;
+}
